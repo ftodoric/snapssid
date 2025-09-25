@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "SnapSSID",
+  "version": "1.0",
+  "description": "Grab dev session token for localhost",
+  "permissions": ["cookies", "tabs", "activeTab"],
+  "optional_host_permissions": ["https://*/*", "http://localhost:3000/*"],
+  "background": {
+    "service_worker": "service-worker.js"
+  },
+  "action": {
+    "default_title": "SnapSSID"
+  },
+  "icons": {
+    "48": "icon.png"
+  }
+}
